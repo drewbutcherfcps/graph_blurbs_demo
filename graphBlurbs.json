@@ -1,0 +1,19 @@
+[
+  {
+      "name" : "# of Students Currently Enrolled", 
+      "id" : "745", 
+      "graphStory" : "This graph displays the count of actively enrolled students (their current enrollment is at the selected schools) by grade level for a single year.", 
+      "chartType" : "Bar Chart", 
+      "dataQualityReason" : "Are there any errors affecting my data that need to be addressed?", 
+      "dataQualityLinkContent" : "Student Information Error Report", 
+      "dataQualityLinkUrl" : "https://icreports.fcps.net/ReportServer/Pages/ReportViewer.aspx?%2fConflictReports%2fICSchoolErrorReptII",
+      "contactEmail" : "Steve Hill", 
+      "contactSubjectLine" : "I have a question about Student Enrollment", 
+      "goodUseOfVisualization" : "Using this data you can find the total number of students for a single year. Combined with additional years this data can help you predict future enrollment totals.", 
+      "lookOutFor" : "This graph provides a snapshot of the year. It should not be used to check how enrollment varies over the course of the year.", 
+      "externalReferences" : [
+        { "url" : "https://www.fcps.net/Page/5423", "resourceName" : "Enrollment in Fayette County Public Schools" }, 
+        { "url" : "https://www.fcps.net/Domain/2297", "resourceName" : "Interpretation Services" } ]
+  }
+]
+

@@ -1,0 +1,108 @@
+/* Styling for Info Panel and Info Icon */
+label.fcps-label {
+     margin-bottom: 0px;
+     display: block;
+}
+
+label.fcps-label > h1, h2, h3, h4, h5, h6 {
+  margin-top: 0px;
+  margin-bottom: 15px;   
+}
+
+div.fcps-help {
+  cursor: pointer;
+  margin-right: 10px;
+  display: inline;
+  float:right;
+  outline: none;
+}
+
+
+div.fcps-help > i.fa-info-circle {
+   transform: translateY(3px);
+   font-size: 24px;
+}
+
+.fcps-click-to-expand > i {
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-right: 2px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.15);
+  padding: 3px;
+  transform: translateY(-1px);
+  color: rgba(0,0,0,0.25);
+  -webkit-transition: color .25s;
+     -moz-transition: color .25s;
+      -ms-transition: color .25s;
+          transition: color .25s;
+}
+.fcps-click-to-expand:hover > i {        
+  color: black;
+}
+
+div.fcps-help-contents {
+  z-index: 100000;
+  background-color: #FFFFFF;
+  position: absolute !important;
+  right: 10px;
+  top: 40px;
+  border-radius: 4px;
+  width: 350px;
+  max-height: 300px;
+  overflow-y: scroll;
+  pointer-events: none;
+
+  border: 1px solid #0033A0;
+  border-top: 40px solid #6d9cff;
+  padding: 20px;
+  opacity: 0;
+  font-size: 16px;
+  
+  box-shadow: 2px 2px 10px 2px rgba(0,0,0,0.5);
+  -webkit-transition: opacity .25s;
+     -moz-transition: opacity .25s;
+      -ms-transition: opacity .25s;
+          transition: opacity .25s;
+}
+
+div.fcps-help-contents > ul > li > a {
+  font-size: 16px;
+}
+
+input.fcps-help-checkbox {
+  display: none;
+}
+
+input.fcps-help-checkbox:not(:checked) + div.fcps-hidden-content {
+  display: none;
+}
+
+input.fcps-help-checkbox:checked + div.fcps-hidden-content{
+  display: initial;
+}
+
+div.fcps-help:focus + div.fcps-help-contents
+{
+  pointer-events: auto;
+  opacity: 1 !important;
+}
+
+
+div.fcps-help-contents:focus {
+  outline: none;
+}
+
+div.fcps-help-contents:hover,
+div.fcps-help-contents:focus {
+  pointer-events: auto;
+  cursor: grab;
+  opacity: 1 !important; 
+}
+
+div.fcps-help-contents:active {
+  border-top: 40px solid #0033a0;
+  pointer-events: auto;
+  cursor: grabbing;
+  opacity: 1 !important;
+}
+
