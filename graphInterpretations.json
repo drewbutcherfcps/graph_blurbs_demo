@@ -1,11 +1,11 @@
 {
-	"contents" :[ 
-		{ 
-			"type" : "Bar Chart",
-			"description" : "<h5>What is a bar chart?</h5><p>Answer to this question</p>",
-			"howToRead" : "<h5>How do I read a bar chart?</h5><ol><li>Answer to this question</li></ol>",
-			"citation" : "<a href=\"#\" target=\"_blank\"><sup>1</sup>Citation to your reference</a>"
-		}
-	]
+  "contents" :[ 
+    { 
+      "type" : "Bar Chart",
+      "description" : "<h5>What is a bar chart?</h5><p>Answer to this question</p>",
+      "howToRead" : "<h5>How do I read a bar chart?</h5><ol><li>Answer to this question</li></ol>",
+      "citation" : "<a href=\"#\" target=\"_blank\"><sup>1</sup>Citation to your reference</a>"
+    }
+  ]
 }
 
