@@ -17,6 +17,6 @@
 2. Citation is build in for those who want to cite a reference.  
 3. Obtain authors permission if you are reproducing someone elses work.    
 
-On the Dasbhoard navigate to ***Site Administration > Services > Dashboard Services*** and click Edit
+On the Dashboard navigate to ***Site Administration > Services > Dashboard Services*** and click Edit
 
 In the field Page Disclaimer under Disclaimer Setting add a script tag with a CDN to JQuery-UI this is for the draggable function.  This can be found at https://code.jquery.com/ui/       
